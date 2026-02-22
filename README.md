@@ -4,7 +4,6 @@ DoesGuardian is an embedded-system-based smart medication reminder designed to h
 
 ## 📌 Project
 Many patients, especially elderly individuals and those under long-term treatment, often forget or skip their medication. DoseGuardian addresses this issue by integrating a Real-Time Clock (RTC) with visual and audible alert mechanisms to ensure timely medicine intake.
----
 
 ## 🚀 Objectives
 
@@ -14,7 +13,6 @@ Many patients, especially elderly individuals and those under long-term treatmen
 - Trigger alert when current time matches scheduled time
 - Detect missed medication using LED indication
 
----
 ## ⚙️ Working Principle
 
 ### 1️⃣ Setting Medicine Schedule
