@@ -68,14 +68,15 @@ RTC, Keypad, and Switches provide inputs to the LPC2148 microcontroller. The con
 - If NOT confirmed within time
 - Red LED turns ON (Missed Dose Alert)
 
-## ✨Features
-🕰️Real-time clock display
-✏️Time, date, and day editing
-⏰Medicine reminder scheduling
-🔔Audible alerts using buzzer
-📺Visual alerts using LCD and LED
-☑️Confirmation-based medicine intake
-⚠️Missed-dose indication
+## ✨ Features
+
+- 🕰️ Real-time clock display  
+- ✏️ Time, date, and day editing  
+- ⏰ Medicine reminder scheduling  
+- 🔔 Audible alerts using buzzer  
+- 📺 Visual alerts using LCD and LED  
+- ☑️ Confirmation-based medicine intake  
+- ⚠️ Missed-dose indication  
 
 ## 📋 Menu System
 
