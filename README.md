@@ -39,18 +39,8 @@ When time matches:
 - Buzzer turns ON and OFF periodically
 - Waits for user acknowledgment
 
-## 🧩 System Components
-
-- LPC2148 Microcontroller
-- RTC
-- 16x2 LCD
-- 4x4 Matrix Keypad
-- Buzzer
-- Switch1 (Menu/Set)
-- Switch2 (Acknowledgment)
-- Red LED (Missed Dose Indicator)
-
----
+## 🧩Block Diagram (Logical View)
+RTC, Keypad, and Switches provide inputs to the LPC2148 microcontroller. The controller drives the LCD, Buzzer, and LED for output indications.
 
 ## 🛠️ Hardware Requirements
 
@@ -63,18 +53,13 @@ When time matches:
 - LED
 - USB-UART Converter / DB-9 Cable
 
----
-
 ## 💻 Software Requirements
 
 - Embedded C Programming
+- Keil IDE
 - Flash Magic
 
----
 
-
-
----
 
 ### 4️⃣ Acknowledgment
 
