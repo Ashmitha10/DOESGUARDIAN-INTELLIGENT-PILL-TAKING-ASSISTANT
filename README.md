@@ -68,7 +68,14 @@ RTC, Keypad, and Switches provide inputs to the LPC2148 microcontroller. The con
 - If NOT confirmed within time:
   - Red LED turns ON (Missed Dose Alert)
 
----
+## ✨Features
+🕰️Real-time clock display
+✏️Time, date, and day editing
+⏰Medicine reminder scheduling
+🔔Audible alerts using buzzer
+📺Visual alerts using LCD and LED
+☑️Confirmation-based medicine intake
+⚠️Missed-dose indication
 
 ## 📋 Menu System
 
@@ -119,24 +126,6 @@ All test cases are validated.
 8. If missed → Turn ON Red LED
 9. Return to main loop
 
----
-
-## 📂 Suggested Project Structure
-
-```
-DoseGuardian/
-│
-├── main.c
-├── lcd.c
-├── keypad.c
-├── rtc.c
-├── buzzer.c
-├── README.md
-└── documentation/
-```
-
----
-
 ## 🔮 Future Enhancements
 
 - EEPROM storage for permanent schedule saving
@@ -146,16 +135,14 @@ DoseGuardian/
 - Multiple medicine reminders
 - Battery backup support
 
----
+## 👩‍💻 Developed By
 
-## 👩‍💻 Author
-
-Korra Asmitha  
-Embedded Systems Developer  
-Vector Institute, Hyderabad  
-
----
+Korra Ashmitha  
+Electronics and Communication Engineering  
+Developer of DoseGuardian – Intelligent Pill-Taking Assistant 
 
 ## 📜 License
 
-This project is for academic and educational purposes.
+This project is developed for academic and learning purposes. You are free to modify and enhance it with proper credit.
+
+⭐ If you find this project useful, consider giving it a star on GitHub.
