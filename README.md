@@ -2,7 +2,6 @@
 
 DoesGuardian is an embedded-system-based smart medication reminder designed to help patients take medicines on time. It is built using the LPC2148(ARM7) microcontroller and provides real-time monitoring, alerts,and user acknowledgment to reduce mssed doses.
 
----
 ## 📌 Project
 Many patients, especially elderly individuals and those under long-term treatment, often forget or skip their medication. DoseGuardian addresses this issue by integrating a Real-Time Clock (RTC) with visual and audible alert mechanisms to ensure timely medicine intake.
 ---
@@ -16,6 +15,31 @@ Many patients, especially elderly individuals and those under long-term treatmen
 - Detect missed medication using LED indication
 
 ---
+## ⚙️ Working Principle
+
+### 1️⃣ Setting Medicine Schedule
+
+- Press Switch1
+- Enter medicine time using keypad
+- Time stored in microcontroller memory
+- LCD displays saved schedule
+
+---
+
+### 2️⃣ Real-Time Monitoring
+
+- Microcontroller continuously reads RTC
+- Compares current time with stored medicine time
+
+---
+
+### 3️⃣ Alert Mechanism
+
+When time matches:
+
+- LCD displays: "Take Medicine Now"
+- Buzzer turns ON and OFF periodically
+- Waits for user acknowledgment
 
 ## 🧩 System Components
 
@@ -50,31 +74,7 @@ Many patients, especially elderly individuals and those under long-term treatmen
 
 ---
 
-## ⚙️ Working Principle
 
-### 1️⃣ Setting Medicine Schedule
-
-- Press Switch1
-- Enter medicine time using keypad
-- Time stored in microcontroller memory
-- LCD displays saved schedule
-
----
-
-### 2️⃣ Real-Time Monitoring
-
-- Microcontroller continuously reads RTC
-- Compares current time with stored medicine time
-
----
-
-### 3️⃣ Alert Mechanism
-
-When time matches:
-
-- LCD displays: "Take Medicine Now"
-- Buzzer turns ON and OFF periodically
-- Waits for user acknowledgment
 
 ---
 
