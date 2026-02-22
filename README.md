@@ -65,8 +65,8 @@ RTC, Keypad, and Switches provide inputs to the LPC2148 microcontroller. The con
 
 - User presses Switch2 to confirm intake
 - If confirmed → System returns to main display
-- If NOT confirmed within time:
-  - Red LED turns ON (Missed Dose Alert)
+- If NOT confirmed within time
+- Red LED turns ON (Missed Dose Alert)
 
 ## ✨Features
 🕰️Real-time clock display
