@@ -1,22 +1,9 @@
 # 💊 DoseGuardian – Intelligent Pill-Taking Assistant
-
-## 📌 Project Overview
-
-DoseGuardian is an intelligent medication reminder and monitoring system designed to help patients take prescribed medicines on time.
-
-This system is especially useful for:
-- Elderly patients
-- Long-term treatment patients
-- Individuals who forget medication
-
-Built using LPC2148 Microcontroller and Embedded C.
-
 ---
-
-## 🎯 Aim
-
-To design a smart microcontroller-based medication reminder system that alerts users at scheduled medicine times and monitors acknowledgment.
-
+DoseGuardian is an intelligent medication reminder and monitoring system designed to help patients take prescribed medicines on time. It is built using the LPC2148 (ARM7) microcontroller and provides real-time monitoring, alerts, and user acknowledgment to reduce missed doses.
+📌 Project
+---
+Many patients, especially elderly individuals and those under long-term treatment, often forget or skip their medication. DoseGuardian addresses this issue by integrating a Real-Time Clock (RTC) with visual and audible alert mechanisms to ensure timely medicine intake.
 ---
 
 ## 🚀 Objectives
