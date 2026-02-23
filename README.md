@@ -124,7 +124,7 @@ When you press 2 on main menu it go for Edit medicine time
 ![WhatsApp Image 2026-02-23 at 6 02 45 PM](https://github.com/user-attachments/assets/538ac652-cd55-4e67-8b55-f41027acb0a8)
 
 
-## 🔹 ON Time Setting
+ 🔹 ON Time Setting
 
 - The LCD prompts the user with:
   
@@ -148,7 +148,7 @@ When you press 2 on main menu it go for Edit medicine time
 
 This ensures only valid 24-hour format time is accepted.
 
-### 🔹 OFF Time Setting
+ 🔹 OFF Time Setting
 
 - After valid ON time entry, the LCD prompts:
 
@@ -161,18 +161,7 @@ This ensures only valid 24-hour format time is accepted.
 ![WhatsApp Image 2026-02-23 at 6 09 11 PM](https://github.com/user-attachments/assets/14cbd69d-73b1-4ff7-bf57-f6434c3dab98)
 
 
-### 🔍 Input Validation Logic
-
-if(on_h > 23 || on_m > 59)
-{
-    cmdLCD(0x01);
-    strLCD("Invalid On Time");
-    delay_ms(800);
-    return;
-}
-
-This prevents invalid scheduling and ensures system reliability.
-## ⚙️ Purpose in Project
+ ⚙️ Purpose in Project
 
 This ON/OFF time scheduling:
 
@@ -183,11 +172,11 @@ This ON/OFF time scheduling:
 
 This module is a critical part of the DoseGuardian medication reminder system.
 
-## 🔔 Medicine Alert & Acknowledgment Logic
+ 🔔 Medicine Alert & Acknowledgment Logic
 
 The system continuously compares the stored medicine ON time with the current RTC time.
 
-## ⏰ Time Match Condition
+ ⏰ Time Match Condition
 
 When:
 
@@ -226,12 +215,11 @@ If **Switch2 is NOT pressed** within the timeout period:
 
 ## 🔮 Future Enhancements
 
-Multiple medicine schedules
-EEPROM or Flash memory storage
-GSM or SMS alert system
-Mobile application integration
-Voice reminders
-Low-power sleep mode
+- Multiple medicine schedules
+- GSM or SMS alert system
+- Mobile application integration
+- Voice reminders
+- Low-power sleep mode
 
 ## 👩‍💻 Developed By
 
