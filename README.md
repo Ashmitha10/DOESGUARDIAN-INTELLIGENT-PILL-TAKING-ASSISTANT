@@ -110,11 +110,11 @@ When you press 1 for Editing the RTC Info
 
 ✏️ Editing HOUR
 
-                           ![WhatsApp Image 2026-02-23 at 5 57 02 PM](https://github.com/user-attachments/assets/7bf1df54-4bce-47d9-877c-8a831a2684f0)
+   ![WhatsApp Image 2026-02-23 at 5 57 02 PM](https://github.com/user-attachments/assets/7bf1df54-4bce-47d9-877c-8a831a2684f0)
 
 If Invalid range is taken it show invalid for exiting press 3
 
-                           ![WhatsApp Image 2026-02-23 at 6 01 40 PM](https://github.com/user-attachments/assets/1bbb4de7-c4e2-4af0-a1b3-a60952481065)
+ ![WhatsApp Image 2026-02-23 at 6 01 40 PM](https://github.com/user-attachments/assets/1bbb4de7-c4e2-4af0-a1b3-a60952481065)
 
 
 ## 💊 Edit Medicine Time
