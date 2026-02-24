@@ -78,10 +78,11 @@ RTC, Keypad, and Switches provide inputs to the LPC2148 microcontroller. The con
 - ☑️ Confirmation-based medicine intake  
 - ⚠️ Missed-dose indication
 
-   ## 📸LCD Display
-<div align="center">
-  <img src="![WhatsApp Image 2026-02-24 at 7 53 46 PM](https://github.com/user-attachments/assets/8092dedd-2a12-48bd-84f9-6ec73ddc5a86)" width="500">
-</div>
+  ## 📷 LCD Display
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b03bf679-caf3-49cd-a0f7-6f2689c5c518" width="500"/>
+</p>
 
 
 
