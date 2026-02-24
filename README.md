@@ -1,4 +1,4 @@
-![WhatsApp Image 2026-02-24 at 7 53 46 PM](https://github.com/user-attachments/assets/8ff2fdbb-3651-43bd-bb76-f20564ff6f9f)# 💊 DoseGuardian – Intelligent Pill-Taking Assistant
+## 💊 DoseGuardian – Intelligent Pill-Taking Assistant
 
 DoesGuardian is an embedded-system-based smart medication reminder designed to help patients take medicines on time. It is built using the LPC2148(ARM7) microcontroller and provides real-time monitoring, alerts,and user acknowledgment to reduce mssed doses.
 
