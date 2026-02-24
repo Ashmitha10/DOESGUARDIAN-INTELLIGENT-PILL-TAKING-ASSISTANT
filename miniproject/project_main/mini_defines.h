@@ -5,11 +5,11 @@
 #define REDLED_on (1<<5)//p0.5 formedicine
 
 /*-----BUZZER-----*/
-#define BUZZER_PIN (1<<18)
+#define BUZZER_PIN (1<<26)
 #define ACKTIMEOUT 30
 
 /*----LCD------*/
-#define LCD_data 8//here p0.16 top0.23 are lcd data ines
+#define LCD_data 8//here p0.8 top0.16 are lcd data ines
 #define RS 16
 #define RW 19
 #define EN 17
@@ -31,3 +31,4 @@
 
 #endif			 
                                                          
+
