@@ -84,20 +84,13 @@ RTC, Keypad, and Switches provide inputs to the LPC2148 microcontroller. The con
   <img src="https://github.com/user-attachments/assets/b03bf679-caf3-49cd-a0f7-6f2689c5c518" width="500"/>
 </p>
 
-
-
-
-
-
 ## 📋 Menu System
 
 1.RTCINFO
 2.MEDICINE
 3.EXIT
 
-
-![WhatsApp Image 2026-02-23 at 5 45 26 PM](https://github.com/user-attachments/assets/961f9cad-c1e4-40cf-a9b6-79c24187ea21)
-
+![WhatsApp Image 2026-02-24 at 10 36 14 PM](https://github.com/user-attachments/assets/c6a5de52-6ffe-4a69-a4a0-f168f77c0e7a)
 
 ## 🕒 Edit RTC Information
 
@@ -111,30 +104,29 @@ When you press 1 for Editing the RTC Info
 7.YEAR
 8.EXIT
 
-![WhatsApp Image 2026-02-23 at 5 51 32 PM](https://github.com/user-attachments/assets/9fda4aa5-69e6-4dc0-9ed5-e79caf99e492)
-
+![WhatsApp Image 2026-02-24 at 10 37 20 PM](https://github.com/user-attachments/assets/e5a3ad29-0dd6-4168-a3fd-31898ba87189)
 
 ✏️ Editing HOUR
 
-   ![WhatsApp Image 2026-02-23 at 5 57 02 PM](https://github.com/user-attachments/assets/7bf1df54-4bce-47d9-877c-8a831a2684f0)
-
-If Invalid range is taken it show invalid for exiting press 3
-
- ![WhatsApp Image 2026-02-23 at 6 01 40 PM](https://github.com/user-attachments/assets/1bbb4de7-c4e2-4af0-a1b3-a60952481065)
-
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/5b0d9343-c55f-438c-891c-8200e2b7e059" width="500"/>
+</p>
 
 ## 💊 Edit Medicine Time
 
 When you press 2 on main menu it go for Edit medicine time
 
-![WhatsApp Image 2026-02-23 at 6 02 45 PM](https://github.com/user-attachments/assets/538ac652-cd55-4e67-8b55-f41027acb0a8)
-
+![WhatsApp Image 2026-02-24 at 10 41 29 PM](https://github.com/user-attachments/assets/c65d4d9a-4c09-4691-887e-85127657cca4)
 
  🔹 ON Time Setting
 
 - The LCD prompts the user with:
   
   `ONTIME HHMM:`
+
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/4148639e-db8d-4fd7-a52d-e8e833da716e" width="500"/>
+</p>
 
 - The user enters:
   - 2-digit Hour
@@ -160,12 +152,13 @@ This ensures only valid 24-hour format time is accepted.
 
   `OFF TIME HHMM:`
 
+   <p align="center">
+  <img src="https://github.com/user-attachments/assets/5006f28f-d625-4050-818e-921e79d95d71" width="500"/>
+</p>
+
 - User enters OFF hour and minute.
 - Similar validation is performed to ensure valid time format.
 - OFF time is stored for reminder control logic.
-
-![WhatsApp Image 2026-02-23 at 6 09 11 PM](https://github.com/user-attachments/assets/14cbd69d-73b1-4ff7-bf57-f6434c3dab98)
-
 
  ⚙️ Purpose in Project
 
@@ -192,6 +185,9 @@ the following sequence is executed:
 - Buzzer turns ON.Medicne time
 - System waits for a predefined acknowledgment time (`ACKTIMEOUT`).
 
+  ![WhatsApp Image 2026-02-24 at 10 49 03 PM](https://github.com/user-attachments/assets/2b1ca35a-a3b2-4b8d-a1d2-1a9362798caf)
+
+
 ⌛  Wait for User Confirmation
 
 During the waiting period:
@@ -200,7 +196,8 @@ During the waiting period:
   - Buzzer turns OFF
   - LCD displays: "Medicine Taken"
   - Red LED remains OFF
-  - System returns to normal monitoring mode
+
+  ![WhatsApp Image 2026-02-24 at 10 51 22 PM](https://github.com/user-attachments/assets/f6e70a63-af6d-48be-865c-a880cab23a9f)
 
  ⚠️ Missed Dose Detection
 
@@ -211,7 +208,8 @@ If **Switch2 is NOT pressed** within the timeout period:
 - 🔴 Red LED turns ON
 - Indicates missed medicine intake
 
-![WhatsApp Image 2026-02-23 at 6 17 54 PM](https://github.com/user-attachments/assets/3c2dcc20-daae-461a-ad93-638ef438b9dd)
+![WhatsApp Image 2026-02-24 at 10 52 45 PM](https://github.com/user-attachments/assets/3ea11e4b-289c-4427-afdd-3f07995810d7)
+
 
 ## 🔑Keypad Controls
 | Key | Function Name | Description |
