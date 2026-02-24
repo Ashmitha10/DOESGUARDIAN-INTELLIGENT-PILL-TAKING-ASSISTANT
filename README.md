@@ -35,7 +35,7 @@ Many patients, especially elderly individuals and those under long-term treatmen
 
 When time matches:
 
-- LCD displays: "Take Medicine Now"
+- LCD displays: "Medicine Time"
 - Buzzer turns ON and OFF periodically
 - Waits for user acknowledgment
 
