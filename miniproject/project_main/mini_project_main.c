@@ -115,7 +115,7 @@ alert_start();
 
 /*show remainder on LCD*/
 cmdLCD(0x01);
-strLCD("Take Medicine");
+strLCD("Medicine Time");
 
 /*Reset acknowledgement flags*/
 ack=0;
@@ -143,7 +143,7 @@ if(ack){
 
 /*medicine taken successfully*/
 cmdLCD(0x01);
-strLCD("MED TAKEN");
+strLCD("Medicine Taken");
 
 /*Reset acknowledgement flag*/
 ack=0;
@@ -170,5 +170,6 @@ med_on_min=0;
 delay_ms(300);
 }
 }
+
 
 
