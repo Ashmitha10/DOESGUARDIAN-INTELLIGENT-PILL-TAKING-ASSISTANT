@@ -80,7 +80,7 @@ RTC, Keypad, and Switches provide inputs to the LPC2148 microcontroller. The con
 
    ## 📸LCD Display
 <p align="center">
-  <img src="![WhatsApp Image 2026-02-24 at 7 53 46 PM](https://github.com/user-attachments/assets/8092dedd-2a12-48bd-84f9-6ec73ddc5a86)"width="500">
+  <img src="![WhatsApp Image 2026-02-24 at 7 53 46 PM](https://github.com/user-attachments/assets/8092dedd-2a12-48bd-84f9-6ec73ddc5a86)" width="500">
 </p>
 
 
