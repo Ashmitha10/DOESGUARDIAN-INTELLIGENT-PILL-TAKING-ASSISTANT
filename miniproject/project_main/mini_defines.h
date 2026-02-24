@@ -1,6 +1,7 @@
 /*----project defines----*/
 #ifndef MINI_DEFINES_H
 #define MINI_DEFINES_H
+//include header file
 #include<LPC21xx.h>
 /*---LEDs----*/
 #define REDLED_on (1<<5)//red led connected to port0 pin5 
@@ -32,5 +33,6 @@
 
 #endif			 
                                                          
+
 
 
